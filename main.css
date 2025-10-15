@@ -9,6 +9,8 @@ body{
     background-color: var(--bg);
     color: var(--text);
     font-family: var(--headings);
+    margin: 0;
+    text-align: center;
 }
 
 p{
@@ -19,6 +21,7 @@ p{
 .navBar{
     font-family: var(--headings);
     display: flex;
+    background-color: #1b3032;
 }
 
 /* Links */
@@ -49,11 +52,12 @@ small{
 
 /* Buttons */
 button{
-    padding: 0.25em 0.5em;
+    padding: 0.75em 1em;
     text-align: center;
     border-style: none;
     background-color: #1e3638;
     font-family: 'Tahoma';
+    font-size: 16px;    
 }
 
 button:hover{
@@ -61,4 +65,9 @@ button:hover{
     color: #aaaaaa;
     font-weight: bold;
     font-family: 'Trebuchet MD';
+}
+
+/**/
+div{
+    width: 100%;
 }
