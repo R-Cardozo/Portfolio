@@ -21,7 +21,7 @@ p{
 .navBar{
     font-family: var(--headings);
     display: flex;
-    background-color: #1b3032;
+    background-color: #366064;
 }
 
 /* Title Bar */
@@ -32,7 +32,7 @@ p{
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: #162425;
+    background-color: #244143;
     margin: 0;
     height: 50px;
 }
@@ -68,7 +68,7 @@ button{
     padding: 0.75em 1em;
     text-align: center;
     border-style: none;
-    background-color: #1e3638;
+    background-color: rgb(63, 111, 115);
     font-family: 'Tahoma';
     font-size: 16px;    
 }
