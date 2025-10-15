@@ -1,25 +1,64 @@
 :root{
-    --bg: #2a1d4a;
-    --text: #eaeaea;
-    --font: "Courier New", Courier, monospace;
+    --bg: #1f1f1f;
+    --text: #c1c1c1;
+    --headings: 'Tahoma';
+    --paragraphs: 'Trebuchet MD';
 }
 
 body{
     background-color: var(--bg);
     color: var(--text);
+    font-family: var(--headings);
 }
 
-.customButtons{
-    border-color: #bab111;
-    font-family: var(--font);
+p{
+    font-family: var(--paragraphs);
+}
+
+/* Navigation Bar */
+.navBar{
+    font-family: var(--headings);
     display: flex;
 }
 
-.buttonDiv{
-    width: 100%;
-    overflow: auto;
-    display: flex;
-    gap: 7px;
-    background-color: #707070;
+/* Links */
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #b8b8b8;
+}
+
+a:visited{
+    color: #717171;
+}
+
+a:hover{
+    color: #28c3d1;
+}
+
+/* Small Text */
+small{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 0.5em 0.5em;
+}
+
+/* Buttons */
+button{
+    padding: 0.25em 0.5em;
+    text-align: center;
     border-style: none;
+    background-color: #1e3638;
+    font-family: 'Tahoma';
+}
+
+button:hover{
+    background-color: #417378;
+    color: #aaaaaa;
+    font-weight: bold;
+    font-family: 'Trebuchet MD';
 }
