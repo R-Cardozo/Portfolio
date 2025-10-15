@@ -5,3 +5,9 @@
 body{
     background-color: var(--bg);
 }
+
+div{
+    background-color: #4f879f;
+    border-radius: 2px;
+    border-color: #000000;
+}
