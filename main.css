@@ -24,6 +24,19 @@ p{
     background-color: #1b3032;
 }
 
+/* Title Bar */
+.titleBar *{
+    font-family: var(--headings);
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #162425;
+    margin: 0;
+    height: 50px;
+}
+
 /* Links */
 a{
     text-decoration: none;
@@ -67,7 +80,7 @@ button:hover{
     font-family: 'Trebuchet MD';
 }
 
-/**/
+/* Div width */
 div{
     width: 100%;
 }
